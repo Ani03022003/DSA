@@ -36,6 +36,6 @@ int findSubString(string str)
 
 int main()
 {
-    string str="anish";
+    string str="GEEKSGEEKSFOR";
     cout<<findSubString(str);
 }
