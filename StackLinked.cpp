@@ -5,7 +5,7 @@ struct StackNode{
     StackNode* next;
 }*top,*newptr,*save,*ptr;
 StackNode* createNewNode(int n){
-    ptr=new Node;
+    ptr=new StackNode;
     ptr->val=n;
     ptr->next=NULL;
     return ptr;
